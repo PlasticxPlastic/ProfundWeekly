@@ -5,7 +5,7 @@
 int main()
 {
     char card[3];
-    printf("Enter your card as form if your card is 10 please input as J or K or Q or if you have only 2 card pls input card 3 as 0 (card1 card2 card3) : ");
+    printf("Enter your card as form if your card is 10 please input as J or K or Q or if you have only 2 card pls input card 3 as 0 and if your card have A please input as A(card1 card2 card3) : ");
     scanf("%c %c %c",&card[0],&card[1],&card[2]);
     int total;
     int aces;
